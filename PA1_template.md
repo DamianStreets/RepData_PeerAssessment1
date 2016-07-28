@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.path='Figures/')
+knitr::opts_chunk$set(echo = TRUE, fig.path='Figures/', eval=TRUE)
 options(scipen = 1, digits = 2)
 ```
 
